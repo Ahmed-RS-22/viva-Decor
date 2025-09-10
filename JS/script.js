@@ -15,4 +15,7 @@ menuBtn.addEventListener("click",()=>{
     menu.classList.toggle("transform-[scaleY(0)]")
 })
 const allSections =document.querySelectorAll(".anime")
- allSections.forEach(el => observer.observe(el))
+ allSections.forEach((el) => {
+    el.style.overflow='hidden'
+    observer.observe(el)
+ })
