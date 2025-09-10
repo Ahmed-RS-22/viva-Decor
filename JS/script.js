@@ -16,6 +16,5 @@ menuBtn.addEventListener("click",()=>{
 })
 const allSections =document.querySelectorAll(".anime")
  allSections.forEach((el) => {
-    el.style.overflow='hidden'
     observer.observe(el)
  })

@@ -233,6 +233,9 @@
   }
 }
 @layer components {
+    section:not(:last-child){
+    overflow: hidden;
+  }
   .Animate .fadeInUP ,header.fadeInUP {
     animation: fadeInUP 1.5s ease-in-out 300ms both;
     transform-origin: top center;
